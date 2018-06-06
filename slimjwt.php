@@ -2,9 +2,7 @@
 
 class Slimjwt
 {
-	/**
-	*encode
-	*/
+	//encode
 	public static function encode($payload,$key,$alg = 'HS256',$keyId = null,$head = null)
     {
         //$key = self::urlsafeB64Encode($key);
