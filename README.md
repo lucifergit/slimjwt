@@ -1,4 +1,3 @@
-#SlimJwt
 #a Slim php jwt 
 
 ##How to use?
