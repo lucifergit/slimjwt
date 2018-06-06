@@ -1,6 +1,8 @@
-#a Slim php jwt 
 
-##How to use?
+Slimjwt
+=======
+
+How to use?
 
 ```php
 	//include Slimjwt.php to your project
