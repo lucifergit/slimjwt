@@ -8,7 +8,7 @@ How to use?
 	//include Slimjwt.php to your project
 	//加密秘钥
 	$secret = 'your-secret';
-	//载荷 exp为过期时间戳 过期后解密不通过
+	//载荷 可自定义内容，解密后返回完整数组 exp为过期时间戳 过期后解密验证不通过
 	$payload =array(
             'userid'=>1,
 	    'exp'=>time()+60*60*6
